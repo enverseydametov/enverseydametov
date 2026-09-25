@@ -1,61 +1,87 @@
 <div align="center">
 
-# 👋 Привет, я Enver Seydametov!
-### 🚀 Senior Android & System Solutions Developer • Reverse Engineering • Low-Level Root Tweaks
+# 👋 Enver Seydametov
+### 🔬 Android Developer • Network Traffic Analysis • Real-Time Systems • Order Interception Specialist
 
-[![Telegram](https://img.shields.io/badge/Direct_Contact-Telegram_@winxpsp1-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/winxpsp1)
-[![Android](https://img.shields.io/badge/Platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://android.com)
-[![Kotlin](https://img.shields.io/badge/Kotlin-Expert-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)](https://kotlinlang.org)
-[![Compose](https://img.shields.io/badge/Jetpack_Compose-Modern_UI-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white)](https://developer.android.com/jetpack/compose)
+[![Telegram](https://img.shields.io/badge/💬_Написать_в_Telegram-@winxpsp1-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/winxpsp1)
+[![Android](https://img.shields.io/badge/Android-Expert-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://android.com)
+[![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)](https://kotlinlang.org)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 
-<p align="center">
-  <b>Разработка нативных Android-приложений любой сложности • Root & Системные твики • Боты автоматизации • Реверс-инжиниринг • Высоконагруженные клиенты</b>
-</p>
-
-[💬 Написать мне в Telegram: @winxpsp1](https://t.me/winxpsp1)
+<sub>🌏 Казахстан | Принимаю заказы на разработку в Telegram: <b>@winxpsp1</b></sub>
 
 </div>
 
 ---
 
-## 🛠 Мой технологический стек
+## 💼 Моя специализация
 
-| Направление | Технологии и инструменты |
+Я разрабатываю **нестандартные Android-приложения и системы** для задач, которые недоступны обычным инструментам. Основное направление — **глубокий анализ сетевого трафика** мобильных приложений, реинжиниринг протоколов и создание клиентов, работающих быстрее оригинального приложения.
+
+### 🎯 Ключевые области:
+
+#### 📡 Анализ и перехват трафика мобильных приложений
+- Реверс-инжиниринг **WebSocket, HTTP/2, gRPC** протоколов любых мобильных приложений
+- Полный **MITM-анализ** зашифрованного трафика (SSL Unpinning, Frida, Burp Suite)
+- Декодирование бинарных форматов: **Protobuf, FlatBuffers, MessagePack, кастомные бинарники**
+- Понимание логики сервера без доступа к его исходному коду
+
+#### 🏎️ Перехват заказов и «первым в очереди»
+- Разработка клиентов для **такси-агрегаторов** (InDrive, Яндекс, регион. платформы), которые получают и обрабатывают заказы **быстрее стандартного приложения**
+- Реализация **молниеносного автопринятия заказов** с фильтрацией по нужным параметрам (зона, цена, маршрут, дистанция)
+- Подключение к **реальному WebSocket-стриму** биржи заказов в реальном времени, минуя официальный UI
+- Алгоритмы **минимальной задержки (latency optimization)** при обработке входящего заказа — водитель принимает первым
+- Фильтрация заказов по нужным параметрам ещё **до появления уведомления** в официальном приложении
+
+#### 🔐 Реверс-инжиниринг APK и протоколов
+- Декомпиляция и **глубокий анализ Android APK** (JADX, смарт-поиск, анализ Smali)
+- Обнаружение и **обход защит**: Root Detection, SSL Pinning, Integrity Checks, Obfuscation
+- Восстановление **бизнес-логики** клиента и серверного API из бинарного кода
+- Написание собственных клиентов с **нативной поддержкой закрытого протокола**
+
+#### 🤖 Автоматизация и боты
+- Python-боты с **асинхронной обработкой событий** (asyncio, aiohttp, websockets)
+- Telegram-боты для **управления, мониторинга и уведомлений** в реальном времени
+- Автоматизация рутинных задач с **умными триггерами** и фильтрами
+
+#### 📱 Нативная Android-разработка
+- Полноценные Android-приложения на **Kotlin + Jetpack Compose (Material 3)**
+- **Фоновые сервисы и Overlay HUD** (работа поверх любых приложений)
+- Интеграция **Root-привилегий** (libsu, KernelSU, Magisk) для системных операций
+- Clean Architecture + MVVM, Coroutines + StateFlow/Channel
+
+---
+
+## 🔩 Технологический стек
+
+| Категория | Инструменты |
 | :--- | :--- |
-| **Android Development** | Kotlin, Jetpack Compose, Material Design 3, Coroutines & Flow, Clean Architecture, MVVM, Room, Retrofit, Ktor, OkHttp, WebSockets |
-| **System & Low-Level** | Root (libsu, KernelSU, Magisk, APatch), Sysfs / Procfs, CPU Governors & Thermal Throttling, Hardware & Fan Control |
-| **Reverse Engineering** | JADX, Frida, APKTool, Анализ протоколов, WebSocket перехват, Декомпиляция и адаптация APK |
-| **Automation & Bots** | Python, Telegram Bot API, Selenium, Playwright, Asyncio, Fast API |
-| **Backend & Cloud** | Python (FastAPI, Flask), Node.js, Firebase (FCM, Firestore, Auth), PostgreSQL, SQLite, Docker |
+| **Android & Kotlin** | Kotlin, Jetpack Compose, Material 3, Coroutines, Flow, Room, Retrofit, OkHttp, WebSocket |
+| **Трафик & Reverse** | Frida, JADX, APKTool, Burp Suite, Wireshark, SSL Unpinning, Protobuf, Smali |
+| **Root & System** | libsu, KernelSU, Magisk, APatch, sysfs/procfs, Thermal & CPU Governor Control |
+| **Python & Боты** | Python 3, asyncio, aiohttp, python-telegram-bot, websockets, Playwright |
+| **Backend & Infra** | FastAPI, Firebase, PostgreSQL, SQLite, Docker |
 
 ---
 
-## 🌟 Публичные и ключевые проекты
+## 📬 Связь — только Telegram
 
-* ⚡ **[ZTEanaliz](https://github.com/enverseydametov/ZTEanaliz)** — Профессиональный программный комплекс аппаратного мониторинга, глубокой аналитики батареи (Live Discharge Graph & Charging Curve), контроля температур и управления аппаратным кулером RedMagic через Root.
-* 🚕 **Специализированные транспортные клиенты & Боты** — Решения для мониторинга заказов, автоматизации действий, кастомной фильтрации и моментального отклика.
-* 🤖 **Magnum Automation & Helper Services** — Автоматизация рутинных процессов, Android Background Daemons & Services.
-
----
-
-## 📬 Связь и разработка под заказ
-
-Ищете надежного разработчика для реализации сложного проекта, нестандартной автоматизации, работы с железом смартфона или кастомного мобильного приложения?
-
-* ✈️ **Telegram:** [@winxpsp1](https://t.me/winxpsp1) *(самый быстрый ответ)*
-* 🐙 **GitHub:** [enverseydametov](https://github.com/enverseydametov)
-
----
-
-## 📈 GitHub Статистика
+> Все мои проекты — **закрытые, под заказ**. Если вам нужно:
+> - 🚕 Клиент для приоритетного получения заказов
+> - 📡 Анализ и реверс трафика вашего приложения
+> - 📱 Нативное Android-приложение с нестандартным функционалом
+> - 🤖 Бот для автоматизации любых процессов
+>
+> **Пишите напрямую:**
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=enverseydametov&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=enverseydametov&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+
+## ✈️ [Telegram: @winxpsp1](https://t.me/winxpsp1)
+
 </div>
 
 ---
 
 <div align="center">
-  <sub>Поиск по интересам: Android, Kotlin, Jetpack Compose, Root, Libsu, RedMagic, ZTE, Reverse Engineering, Telegram Bot, Automation, winxpsp1</sub>
+<sub>android • kotlin • jetpack-compose • websocket • traffic-analysis • reverse-engineering • order-interception • root • libsu • frida • ssl-pinning-bypass • automation • winxpsp1</sub>
 </div>
